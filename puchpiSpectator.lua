@@ -61,7 +61,7 @@ PlayerNameLabel.Text = "Загрузка..."
 
 local ToggleButton = Instance.new("TextButton")
 ToggleButton.Size = UDim2.new(0.3, 0, 0.5, 0)
-ToggleButton.Position = UDim2.new(0.35, 0, -0.5, 0)  -- Размещаем кнопку под основным фреймом
+ToggleButton.Position = UDim2.new(0.35, 0, -0.5, 0)
 ToggleButton.Text = "Вкл. Слежку" ToggleButton.TextColor3 = Color3.new(1, 1, 1)
 ToggleButton.BackgroundColor3 = Color3.new(0.3, 0.3, 0.3)
 ToggleButton.BackgroundTransparency = 0
@@ -171,5 +171,5 @@ ScriptLabel.BackgroundTransparency = 1
 ScriptLabel.TextColor3 = Color3.new(1, 0, 1)
 ScriptLabel.Font = Enum.Font.SourceSansBold
 ScriptLabel.TextSize = 14
-ScriptLabel.Text = "Script by Puchpi"
+ScriptLabel.Text = "Script by https://t.me/puchpi"
 ScriptLabel.Parent = ScreenGui
